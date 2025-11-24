@@ -19,7 +19,7 @@ public class Primes {
         
         System.out.println("Prime numbers up to " + n+":");
         int c = 0;
-        for (int p = 2; p < n; p++){
+        for (int p = 2; p <= n; p++){
             if (prime[p]) {
                 System.out.println(p);
                 c++;
